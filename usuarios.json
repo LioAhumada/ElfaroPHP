@@ -1,0 +1,20 @@
+[
+    {
+        "tipoUsuario": "lector",
+        "nombre": "leonardo",
+        "email": "leo.farrult10@gmail.com",
+        "password": "$2y$10$HKBozcKlvy.Mmcqw75tNbu5a.gF5O\/0krRyrlcknEmzZaafY53bXe"
+    },
+    {
+        "tipoUsuario": "lector",
+        "nombre": "francisca",
+        "email": "fransolari03@gmail.com",
+        "password": "$2y$10$UIK0AgjTxQMlWsaLAvBzquk4P8GGiZH\/5sSnfxAPWy\/CrpODO.buy"
+    },
+    {
+        "tipoUsuario": "colaborador",
+        "nombre": "leonardo",
+        "email": "leoahumadausa@gmail.com",
+        "password": "$2y$10$SUFld2gJJLW.daPW8xRCEOIZn201xom\/wSgstTLNGKrZ9QNXs1ItW"
+    }
+]

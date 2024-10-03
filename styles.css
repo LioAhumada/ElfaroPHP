@@ -1,0 +1,55 @@
+/* Estilo del header con imagen */
+header {
+    background-image: url('https://img.freepik.com/fotos-premium/afiche-plano-faro-luz-faro-oceano-marino-banner-nautico-anuncio-lugar-vacio-fondo-abstracto-vector-texto_999147-5575.jpg?w=1380');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    padding: 3rem 0;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.navbar {
+    z-index: 2;
+    position: relative;
+}
+
+/* Barra lateral */
+.bg-primary {
+    background-color: #48169d !important; /* Asegura el color azul */
+    height: 100%; /* Hace que la barra lateral ocupe todo el alto */
+    overflow-y: auto; /* Añade scroll si el contenido es largo */
+    
+}
+
+/* Estilos para mejorar la apariencia */
+ul.list-unstyled a {
+    text-decoration: none;
+}
+
+ul.list-unstyled a:hover {
+    text-decoration: underline;
+}
+
+/* Asegura que el contenido no se sobreponga */
+.col-md-9 {
+    padding-right: 2rem;
+}
+#usuarioActual {
+    font-weight: bold; /* Opcional: para hacer el nombre del usuario más prominente */
+}
+
+
+
+
